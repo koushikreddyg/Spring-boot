@@ -9,7 +9,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
-import com.google.gson.Gson;
 
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -31,7 +30,7 @@ public class GetControllerTest {
         // ObjectMapper mapper = new ObjectMapper();
 
  
-        assertEquals(new Gson().toJson(new Details()), "");
+        // assertEquals(new Gson().toJson(new Details()), "");
 
         // try {
         //     String json = mapper.writeValueAsString(new Details());
